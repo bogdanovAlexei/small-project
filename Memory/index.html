@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de mémoire</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="game-container">
+        <header class="game-header">
+            <div>
+                <p>MINI-JEU</p>
+                <h1>Jeu de mémoire</h1>
+                <span>Retrouve toutes les paires.</span>
+            </div>
+
+            <button id="restart" type="button">
+                Recommencer
+            </button>
+        </header>
+
+        <section class="game-info">
+            <div>
+                <small>Coups</small>
+                <strong id="moves">Coups : 0</strong>
+            </div>
+
+            <div>
+                <small>Temps</small>
+                <strong id="timer">Temps : 00:00</strong>
+            </div>
+        </section>
+
+        <p id="result"></p>
+
+        <section id="game-board" class="game-board"></section>
+    </main>
+</body>
+</html>

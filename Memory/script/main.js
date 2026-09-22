@@ -108,7 +108,8 @@ function resetTurn() {
 checkVictory() {
     if (matchedCount === cards.length) {
         stopTimer();
-        resultDisplay.textContent = `Victoire ! Coups : ${moves} | Temps : ${formatTime(seconds)}`;
+        resultDisplay.textContent = 
+        `Victoire ! Coups : ${moves} | Temps : ${formatTime(seconds)}`;
     }
 }
 function startTimer() {
